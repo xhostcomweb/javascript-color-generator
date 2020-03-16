@@ -20,6 +20,6 @@ function copy () {
  
  document.execCommand('copy');
  document.body.removeChild(input);
- 
- alert('Copied: ' + text);
+ swal("Copied!", "Awesome New Color!", "success" + text);
+ //alert('Copied: ' + text);
 }
