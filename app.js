@@ -10,7 +10,6 @@ function setColor () {
  document.body.style.backgroundColor = randomColor;
  color.innerText = randomColor;
 }
-
 function copy () {
  let text = color.innerText;
  let input = document.createElement('input');
